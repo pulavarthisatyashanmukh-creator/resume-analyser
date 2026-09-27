@@ -1,0 +1,22 @@
+{
+  "name": "resume-analyzer-react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "bootstrap": "5.3.3",
+    "bootstrap-icons": "1.11.3",
+    "mammoth": "^1.12.2",
+    "pdfjs-dist": "^6.3.289",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "vite": "latest"
+  }
+}

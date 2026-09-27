@@ -1,0 +1,161 @@
+/* ================================
+   RESUME ANALYZER - COMMON CSS
+   ================================ */
+
+:root {
+    --green: #2e7d5b;
+    --light-green: #dcefe5;
+    --navy: #102a43;
+    --off-white: #f8f6f0;
+    --cement: #c8c5bc;
+    --white: #ffffff;
+    --dark: #091c2c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--off-white);
+    color: var(--navy);
+}
+
+/* ================================
+   NAVBAR
+   ================================ */
+
+.navbar {
+    background-color: var(--navy);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    color: #7acb9a;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #7acb9a !important;
+}
+
+/* ================================
+   COMMON BUTTON
+   ================================ */
+
+.btn-green {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-green:hover {
+    background-color: var(--navy);
+    color: white;
+}
+
+/* ================================
+   COMMON SECTION TITLE
+   ================================ */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    color: var(--navy);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-title span {
+    color: var(--green);
+}
+
+.section-title p {
+    color: #667;
+}
+
+/* ================================
+   CARDS
+   ================================ */
+
+.card-custom {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+}
+
+/* ================================
+   FORM
+   ================================ */
+
+.form-control,
+.form-select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 0 0.2rem rgba(46, 125, 91, 0.15);
+}
+
+/* ================================
+   FOOTER
+   ================================ */
+
+footer {
+    background-color: var(--dark);
+    color: var(--cement);
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+   ================================ */
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 21px;
+    }
+
+    .section-title h2 {
+        font-size: 29px;
+    }
+
+}
